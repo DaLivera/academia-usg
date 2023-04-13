@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia USG</title>
+
+    <!---===LINKS===-->
+    <link rel="shortcut icon" href="img/logo-usg-favicon.png">
+    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!---===SCRIPTS===-->
+    <script src="https://kit.fontawesome.com/eeed4bd1f5.js" crossorigin="anonymous"></script>
+    <script src="js/all.min.js"></script>
+    
+
+
+
+    
+</head>
+<body>
+
+    <!--==BLOG CALCULADORA==-->
+    <div class="container-fluid blog__calculadora">
+        <div class="container contenedor__blog">
+            <div class="row d-flex justify-content-end fila__blog-c">
+                <div class="col-auto align-self-center __blog">
+                    Blog
+                </div>
+                <div class="col-auto align-self-center __calculadora">
+                    Calculadora
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==FIN BLOG CALCULADORA==-->
+
+    <!--==HEADER==-->
+    <header class="__header d-flex justify-content-center" id="header">
+        <nav class="__navbar navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo-academia-usg.png" loading="lazy" alt="Academia USG" class="d-none d-lg-block logo__letras img-fluid">
+                <img src="img/logo-usg-favicon.png" loading="lazy" alt="Isologo Academia USG" class="d-block d-lg-none logo__isologo img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icono__menu navbar-toggler-icon"><img src="svg/bars-solid.svg" alt="Menu Academia USG" loading="lazy"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#acerca__usg">Acerca de USG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cursos-online.html">Cursos en línea</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos-presenciales.html">Cursos presenciales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lista-miembros.html">Lista de miembros</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--==FIN HEADER==-->
+
+    <!--====MAIN====-->
+
+    <main>
+
+        <!--====SECCIÓN 1====-->
+        <!--=============== MODAL ===============-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content calendar">
+                    <div class="modal-header d-flex justify-content-between flex-nowrap">
+                            <div class="calendar__prev" id="prev-month"><</div>
+                                <div class="d-flex flex-nowrap">
+                                    <div class="calendar__month" id="month"></div>
+                                    &nbsp;
+                                    <div class="calendar__year" id="year"></div>
+                                </div>
+                            <div class="calendar__next" id="next-month">></div>
+                    </div>
+                    <div class="container__days-week">
+                        <div class="modal-body calendar__week text-center">
+                            <div class="calendar__day calendar__item">Lun</div>
+                            <div class="calendar__day calendar__item">Mar</div>
+                            <div class="calendar__day calendar__item">Mié</div>
+                            <div class="calendar__day calendar__item">Jue</div>
+                            <div class="calendar__day calendar__item">Vie</div>
+                            <div class="calendar__day calendar__item">Sab</div>
+                            <div class="calendar__day calendar__item">Dom</div>
+                        </div>
+    
+                        <div class="calendar__dates" id="dates"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===============FIN MODAL ===============-->
+
+        <section class="container-fluid seccion_01 d-none d-lg-block">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 p-0">
+                    <div class="contenedor-sec_01">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6 p-0 contenedor__preinscripcion">
+                    <div class="contenedor-sec_02">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--====SECCIÓN 2====-->
+
+        <section class="container-fluid seccion_02 m-0">
+            <div class="row">
+                <div class="col-xs-12 col-lg-7 p-0">
+                    <div class="contenedor-sec_03 d-flex flex-column flex-nowrap justify-content-center" style="padding: 2rem 0;">
+                        <h3 class="titulo_seccion-02 scroll-preinscripcion">
+                            Cursos
+                            <br>presenciales
+                            <br><img src="img/linea-titulo-academia-usg.png" class="img-fluid" alt="línea-titulos-academia-usg" loading="lazy">
+                        </h3>
+                        <p class="texto_seccion-02 scroll-preinscripcion-parrafo">
+                            Diseñados para una capacitación teórico-práctica, en donde aprenderás a instalar correctamente toda la gama  de soluciones que ofrece USG, como:
+                            <br>•Sistema USG TABLAROCA®
+                            <br>•Tratamiento de juntas
+                            <br>•Sistema USG DUROCK®
+                            <br>•Sistema USG SECUROCK® 
+                            <br>•Sistema USG PLAFONES®
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-5 p-0 d-none">
+                    <div class="contenedor-sec_04 p-0">
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+          
+        <!--====FORMULARIO PREINSCRIPCION====-->
+        <section class="container formulario__preinscripcion">
+            <div class="row">
+                <div class="col-12 col-md-7 columna__formulario">
+                    <div class="textos__formularios text-left">
+                        <h6>REGÍSTRATE</h6>
+                        <p><span>Curso:</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                        <p><span>Descripción:</span> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                        <p><span>Ubicación:</span> Lorem ipsum dolor sit </p>
+                    </div>
+                    <div class="contenedor__formulario">
+                        <div class="h-100">
+                            <form action="">
+                                <div class="row d-flex align-content-around justify-content-center">
+                                    <div class="col-8 col-lg-8 mb-3 contenedor__input">
+                                        <select class="form-select __select" aria-label="Default select example">
+                                            <option selected>Curso</option>
+                                            <option value="1">Curso 1</option>
+                                            <option value="2">Curso 2</option>
+                                            <option value="3">Curso 3</option>
+                                          </select>
+                                    </div>
+
+
+                                    <!--=============== ICONO CALENDARIO ===============-->
+                                    <div class="col-2 col-lg-1 mb-3 contenedor__input" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/icono-calendario.png" alt="Calendario de Cursos" loading="lazy">
+                                    </div>
+                                    <!--=============== FIN ICONO CALENDARIO ===============-->
+
+
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <input class="__input w-100" type="email" class="form-control" id="floatingNombre" placeholder="Nombre(s)*">
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <input class="__input w-100" type="password" class="form-control" id="floatingApellidos" placeholder="Apellido Paterno*">
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <input class="__input w-100" type="password" class="form-control" id="floatingApellidos" placeholder="Apellidos Materno*">
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <input class="__input w-100" type="email" class="form-control" id="floatingEmail" placeholder="Email">
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <input class="__input w-100" type="tel" class="form-control" id="floatingTel" placeholder="Teléfono">
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <select class="form-select __select" aria-label="Default select example">
+                                            <option selected>Estado/Provincia</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <select class="form-select __select" aria-label="Default select example">
+                                            <option selected>Ciudad</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <select class="form-select __select" aria-label="Default select example">
+                                            <option selected>Horario</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3 contenedor__input">
+                                        <select class="form-select __select" aria-label="Default select example">
+                                            <option selected>Fecha</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                    </div>
+                                    <div class="col-10 col-lg-9 mb-3">
+                                        <div class="form-check flex-wrap">
+                                            <p>
+                                                ¿Desea recibir información adicional sobre productos y cursos presenciales o en línea de USG?
+                                            </p>
+                                            <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Si
+                                            </label>
+                                            <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                No
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container contenedor__boton">
+            <div class="row">
+                <div class="col-5 offset-7">
+                    <div class="contenedor__boton__parrafo d-flex justify-content-center flex-wrap ">
+                        <button class="d-none d-md-block">Inscribirse</button>
+                        <p class="d-none d-md-block">
+                            Si tienes problemas con el llenado de este formulario, comunicarte al teléfono…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container d-block d-md-none" style="height: 300px;">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid contenedor__acerca__usg top__pre-inscripcion" id="acerca__usg">
+            <div class="row">
+                <div class="col">
+                    <p class="acerca__usg">
+                        Acerca de USG: Somos la empresa líder mundial en la fabricación de Sistemas Ligeros de Construcción con más de 115 años de presencia global. Llegamos a México hace más de 50 años con la introducción al mercado de la marca USG TABLAROCA® así como de innovadoras soluciones de alto desempeño que integran muros interiores, fachadas, entrepisos, yesos y plafones fabricados en 5 plantas de manufactura ubicadas en Puebla, Nuevo León, Coahuila, San Luis Potosí y Colima, las cuales abastecen de nuestros sistemas a México, Centroamérica, El Caribe, Sudamérica y Asia. Conoce más aquí
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!--==FOOTER==-->
+        <footer class="__footer container-fluid" id="__footer">
+            <div class="row">
+                <div class="col-md-4 offset-lg-1 order-1 order-md-0 d-flex aligm-items-center contenedor__logo-academia-blanco">
+                    <img src="img/logo-academia-blanco.png" class="img-fluid" alt="Academia USG expertos en construcción" loading="lazy">
+                </div>
+                <div class="col-md-6 offset-lg-1 order-0 order-md-1 text-white d-flex align-items-center contenedor__redes-sociales">
+                   <div class="__contacto">
+                       <p class="m-0 mt-lg-0">
+                           Contáctanos a nuestros teléfonos:
+                       </p>
+                       <p class="m-0 numero__contacto">
+                           +52 5555 5555
+                       </p>
+                       <p class="m-0 mb-lg-4 numero__contacto">
+                           +52 0000 0000
+                       </p>
+                        <div class="redes__sociales">
+                           <a href="https://www.facebook.com/USGLatam/" target="_blank" class="align-items-center"><i class="fab fa-facebook-f"></i></a>
+                           <a href="https://www.youtube.com/user/mercadotecniausgmex" target="_blank" class="align-items-center"><i class="fab fa-youtube"></i></a>
+                           <a href="https://www.instagram.com/usglatam/?ref=badge" target="_blank" class="align-items-center"><i class="fab fa-instagram"></i></a>
+                           <a href="https://www.linkedin.com/company/usg-mexico/" target="_blank" class="align-items-center"><i class="fab fa-linkedin-in"></i></a>
+                           <a href="https://twitter.com/USGLatam" target="_blank" class="align-items-center"><i class="fab fa-twitter"></i></a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="row text-white d-flex justify-content-around __copy">
+               <div class="col-12 col-lg-3 order-1 order-md-0 align-self-center pt-3 pb-3 contenedor__copy">
+                   <p class="m-0 p-0">
+                       © 2021 Corporación USG. Todos los derechos reservados
+                   </p>
+               </div>
+               <div class="col-lg-4 d-none d-md-block col-md-lg order-0 order-md-1 align-self-center">
+                   <a href="" style="font-size: 0.6rem; margin-right: 2rem; color: white;">Cursos online </a>
+                   <a href="" style="font-size: 0.6rem; margin-right: 2rem; color: white;">Cursos presenciales</a>
+                   <a href="" style="font-size: 0.6rem; margin-right: 2rem; color: white;">Lista de miembros</a>
+               </div>
+            </div>
+        </footer>
+       <!--==FIN FOOTER==-->
+
+   </main>
+   <!--==FIN MAIN==-->
+
+   <script src="js/calendario.js"></script>
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="js/scroll.js"></script>
+</body>
+</html>
+
+
+  

@@ -1,0 +1,3561 @@
+:root{
+
+    /*=====COLORES=====*/
+
+    --blanco-usg: #ffffff;
+    --negro: #000000;
+    --rojo-usg: #9e2d3f;
+    --bg-nav: #2c2f31;
+    --li: #cecccc;
+    --li-hover: #7e7e7e;
+    --bg-input: #fafafa;
+    --txt: #333333;
+    --txt-inputs: #7f7f7f;
+
+
+    /*=====FUENTES=====*/
+
+    --GEL: 'Gotham-ExtraLight', Arial, Helvetica, sans-serif;
+    --GNEL: 'GothamNarrow-ExtraLight', Arial, Helvetica, sans-serif;
+    --GL: 'Gotham-Light', Arial, Helvetica, sans-serif;
+    --GBook: 'Gotham-Book', Arial, Helvetica, sans-serif;
+    --MPR: 'MyriadPro-Regular', Arial, Helvetica, sans-serif;
+    --GB: 'Gotham-Bold', Arial, Helvetica, sans-serif;
+    --GNB: 'GothamNarrow-Bold', Arial, Helvetica, sans-serif;
+
+
+    /*=====TAMAÑOS FUENTES=====*/
+
+    --txt-s-12: 0.5rem;
+    --txt-s-13: 0.85rem; 
+    --txt-s-17: 1rem;
+    --txt-s-20: 1.20rem;
+
+    --txt-m-22: 1.3rem;
+    --txt-m-25: 1.5rem;
+    --txt-m-30: 1.5rem;
+    --txt-m-45: 3rem;
+
+    --txt-g-60: 3.75rem;
+    --txt-g-75: 4.5rem;
+    --txt-g-100: 5rem;
+
+
+    /*=====ALTOS=====*/
+
+    --h-blog-c: 3.5rem;
+    --h-header: 5rem;
+
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 4rem;
+}
+
+
+/*=====CLASES=====*/
+
+.titulos__blancos{
+    font-family: var(--GNB);
+    color: var(--blanco-usg);
+}
+
+.titulos__grises{
+    font-family: var(--GB);
+    color: var(--txt);
+}
+
+.parrafos__blancos{
+    font-family: var(--GL);
+    color: var(--blanco-usg);
+}
+
+.parrafos__grises{
+    font-family: var(--GL);
+    color: var(--txt);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background: url(../img/backgroud-abstracto-academia-body.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/* Small (576px and down) */
+@media only screen and (max-width: 576px){
+:root{
+
+    /*=====TAMAÑOS FUENTES=====*/
+    --txt-s-12: 0.75rem;
+    --txt-s-13: 0.82rem; 
+    --txt-s-17: 0.85rem;
+    --txt-s-20: 0.90rem;
+
+    --txt-m-22: 1.2rem;
+    --txt-m-25: 1.5rem;
+    --txt-m-30: 1rem;
+    --txt-m-45: 2.1rem;
+
+    --txt-g-60: 1.8rem;
+    --txt-g-75: 2.2rem;
+    --txt-g-100: 5rem;
+
+    /*=====ALTOS=====*/
+    --h-blog-c: 3rem;
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 2.5rem;
+}
+
+
+/*=====HEADER=====*/
+.__header{
+    padding: 0;
+}
+
+.__header .__navbar .logo__isologo{
+    width: 40px;
+    height: 39px;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+.__header .__navbar .icono__menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.__header .__navbar form .btn{
+    outline: none;
+    border: none;
+}
+
+.__header .__navbar form .btn img:focus{
+    box-shadow: 0 0 10px 1px red;
+}
+
+
+/*===========BUSCADOR===========*/
+.__header .__navbar .navbar-collapse #demo-2 button[type=submit] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+.__header .__navbar .navbar-collapse #demo-2 button[type=submit]:hover {
+	background-color: #fff;
+}
+.__header .__navbar .navbar-collapse #demo-2 button[type=submit]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+.__header .__navbar .navbar-collapse #demo-2 button:-moz-placeholder {
+	color: transparent;
+}
+.__header .__navbar .navbar-collapse #demo-2 button::-webkit-input-placeholder {
+	color: transparent;
+}
+/*===========BUSCADOR===========*/
+
+
+/*=====HOME=====*/
+.__home .contenedor__formulario{
+    width: 100%;
+}
+
+.__home .row .scroll_for{
+    margin-bottom: 5.5rem;
+}
+
+.__home form .contenedor__input{
+    height: var(--h-inputs);
+}
+
+.__home .contenedor__tituloh1{
+    height: auto;
+}
+
+.__home .row .contenedor__cursos-online{
+    height: auto;
+}
+
+.__home form button{
+    height: 3rem;
+}
+
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .contenedor__tituloh2{
+    padding: 1.5rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.a__quien .parrafo__a-quien{
+    margin-bottom: 2.5rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 p{
+    font-size: var(--txt-s-20);
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos{
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+.que__es__academiausg .columna__cursos .fila__cursos{
+    margin: 0 0.5rem;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos .titulos__blancos{
+    font-size: var( --txt-g-75);
+    margin: 1rem 0;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul li{
+    padding: 0.5rem 2rem;
+}
+
+
+/*=====A QUIÉN?=====*/
+.a__quien .__titulo3{
+    line-height: 2.5rem;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+.ejemplos__cursos .contenedor__ejemplos-cursos{
+    margin: 3rem auto;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos img{
+    width: 90%;
+    margin: auto;
+    margin-bottom: .5rem;
+}
+
+
+/*=====DÓNDE IMPARTEN?=====*/
+.donde__cursos{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.donde__cursos .contenedor__titulo h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.donde__cursos .contenedor__titulo p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*=====PROXIMOPS EVENTOS=====*/
+.proximos__eventos-02 .card-img-overlay h5{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.proximos__eventos-02 .card-img-overlay p{
+    font-size: 10px;
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02{
+    margin-top: 1rem;
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02 button{
+    font-size: var(--txt-s-17);
+    padding: 0.5rem;
+    width: 140px;
+}
+
+
+/*=====UBICACIÓN MAPA=====*/
+.ubica__sede{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ubica__sede .contenedor__titulo__ubi h4{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+
+/*======ACCERCA USG======*/
+.contenedor__acerca__usg .acerca__usg{
+    padding: 1rem 0.5rem;   
+}
+
+/*=====FOOTER=====*/
+.__footer::before{
+    display: none;
+}
+
+}
+
+
+/* Small (576px and up) */
+@media only screen and (min-width: 576px){
+:root{
+
+    /*=====TAMAÑOS FUENTES=====*/
+    --txt-s-12: 0.75rem;
+    --txt-s-13: 0.82rem; 
+    --txt-s-17: 0.85rem;
+    --txt-s-20: 0.75rem;
+
+    --txt-m-22: 1.5rem;
+    --txt-m-25: 1.8rem;
+    --txt-m-30: 1rem;
+    --txt-m-45: 2.4rem;
+
+    --txt-g-60: 2.8rem;
+    --txt-g-75: 3rem;
+    --txt-g-100: 5rem;
+
+    /*=====ALTOS=====*/
+    --h-blog-c: 3rem;
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 3rem;
+}
+
+
+/*=====HEADER=====*/
+.__header{
+    padding: 0;
+}
+
+.__header .__navbar .logo__isologo{
+    width: 40px;
+    height: 39px;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+.__header .__navbar .icono__menu img{
+    width: 30px;
+    height: 30px;
+}
+
+/*=====HOME=====*/
+.__home .contenedor__formulario{
+    width: 100%;
+}
+
+.__home form .contenedor__input{
+    height: var(--h-inputs);
+}
+
+.__home .row .contenedor__cursos-online{
+    height: auto;
+}
+
+.__home form button{
+    height: var(--h-inputs);
+}
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .contenedor__tituloh2{
+    padding: 3rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 p{
+    font-size: var(--txt-s-20);
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos{
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+.que__es__academiausg .columna__cursos .fila__cursos{
+    margin: 0 0.5rem;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos .titulos__blancos{
+    font-size: var( --txt-g-75);
+    margin: 2rem 0;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul li{
+    padding: 0.5rem 2rem;
+}
+
+
+/*=====A QUIEN?=====*/
+.a__quien{
+    height: auto;
+}
+
+.a__quien::after{
+    content: url(../img/borde-abstracto-izquierdo-academia-03.png);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.a__quien::before{
+    content: url(../img/borde-abstracto-derecho-academia-03.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.a__quien .parrafo__a-quien{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+.ejemplos__cursos .contenedor__ejemplos-cursos{
+    margin: 3rem auto;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos img{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+/*=====DÓNDE IMPARTEN?=====*/
+.donde__cursos{
+    margin-bottom: 1rem;
+}
+
+.donde__cursos .contenedor__titulo h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.donde__cursos .contenedor__titulo p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*=====PROXIMOS EVENTOS=====*/
+.proximos__eventos-02 .card-img-overlay h5{
+    font-size: var(--txt-m-25);
+    line-height: 1.5rem;
+    margin: 1.5rem;
+}
+
+.proximos__eventos-02 .card-img-overlay p{
+    font-size: var(--txt-s-20);
+    margin-left: 1.5rem;
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02{
+    margin-top: 1rem;
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02 button{
+    font-size: var(--txt-s-17);
+    padding: 0.5rem;
+    width: 200px;
+}
+
+
+/*=====UBICACIÓN MAPA=====*/
+.ubica__sede{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.ubica__sede .row:nth-child(1){
+    margin-bottom: 2.5rem;
+}
+
+.ubica__sede .contenedor__titulo__ubi h4{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.ubica__sede .contenedor__parrafo__ubi p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*======ACCERCA USG======*/
+.contenedor__acerca__usg .acerca__usg{
+    padding: 1rem 0.5rem;   
+}
+
+}
+
+
+/* Medium (768px and up) */
+@media only screen and (min-width: 768px){
+:root{
+
+    /*=====TAMAÑOS FUENTES=====*/
+    --txt-s-12: 0.75rem;
+    --txt-s-13: 0.82rem; 
+    --txt-s-17: 0.85rem;
+    --txt-s-20: 1.1rem;
+
+    --txt-m-22: 1.2rem;
+    --txt-m-25: 1.5rem;
+    --txt-m-30: 1rem;
+    --txt-m-45: 2.4rem;
+
+    --txt-g-60: 2.5rem;
+    --txt-g-75: 3rem;
+    --txt-g-100: 5rem;
+
+    /*=====ALTOS=====*/
+    --h-blog-c: 3rem;
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 3.3rem;
+}
+
+
+/*=====HOME=====*/
+.__home .contenedor__formulario{
+    width: 100%;
+}
+
+.__home form .contenedor__input{
+    height: var(--h-inputs);
+}
+
+.__home form button{
+    height: 3.5rem;
+}
+
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .contenedor__tituloh2 h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 p{
+    font-size: var(--txt-s-20);
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02{
+    margin-bottom: 3rem;
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02 .titulos__blancos{
+    font-size: var( --txt-g-75);
+    margin: 1rem 0;
+}
+
+
+/*=====A QUIEN?=====*/
+.a__quien{
+    height: 500px;
+}
+
+.a__quien::after{
+    content: url(../img/borde-abstracto-izquierdo-academia-02.png);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.a__quien::before{
+    content: url(../img/borde-abstracto-derecho-academia-02.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.a__quien .parrafo__a-quien{
+    width: 80%;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+.ejemplos__cursos{
+    position: relative;
+    height: 250px;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos{
+    position: absolute;
+    top: -120px;
+    margin: 0;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+
+/*=====DÓNDE IMPARTEN?=====*/
+.donde__cursos{
+    margin-bottom: 2rem;
+}
+
+.donde__cursos .contenedor__titulo h2{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.donde__cursos .contenedor__titulo p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*=====PROXIMOS EVENTOS=====*/
+.proximos__eventos-02 .card-img-overlay h5{
+    font-size: var(--txt-m-45);
+    line-height: 2.2rem;
+    margin: 1.5rem;
+}
+
+
+/*=====UBICACIÓN MAPA=====*/
+.ubica__sede{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.ubica__sede .row:nth-child(1){
+    margin-bottom: 2.5rem;
+}
+
+.ubica__sede .contenedor__titulo__ubi h4{
+    font-size: var(--txt-m-45);
+    line-height: 2rem;
+}
+
+.ubica__sede .contenedor__parrafo__ubi p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*======ACCERCA USG======*/
+.contenedor__acerca__usg .acerca__usg{
+    padding: 1.5rem 4rem;   
+}
+
+}
+
+
+/* Large (992px and up) */
+@media only screen and (min-width: 992px){
+:root{
+
+    /*=====TAMAÑOS FUENTES=====*/
+    --txt-s-12: 0.75rem;
+    --txt-s-13: 0.82rem; 
+    --txt-s-17: 0.85rem;
+    --txt-s-20: 1.1rem;
+
+    --txt-m-22: 1.5rem;
+    --txt-m-25: 1.5rem;
+    --txt-m-30: 1rem;
+    --txt-m-45: 2.7rem;
+
+    --txt-g-60: 3rem;
+    --txt-g-75: 3.5rem;
+    --txt-g-100: 5rem;
+
+    /*=====ALTOS=====*/
+    --h-blog-c: 3rem;
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 3rem;
+}
+
+/*=====HEADER=====*/
+.__header .__navbar .logo__letras{
+    width: 210px;
+    height: 25px;
+}
+
+/*=====HOME=====*/
+.__home .contenedor__formulario{
+    width: 100%;
+}
+
+.__home form .contenedor__input{
+    height: var(--h-inputs);
+}
+
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .columna__cursos .contenedor__cursos{
+    border-radius: 0 0 20px 20px;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul li{
+    padding: 0.5rem 2rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 h2{
+    font-size: var(--txt-m-45);
+    line-height: 2.5rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 p{
+    font-size: var(--txt-s-20);
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos .titulos__blancos{
+    font-size: var( --txt-g-75);
+    margin: 2.5rem 0;
+}
+
+
+/*=====A QUIEN?=====*/
+.a__quien::after{
+    content: url(../img/borde-abstracto-izquierdo-academia-02.png);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -300px;
+}
+
+.a__quien::before{
+    content: url(../img/borde-abstracto-derecho-academia-02.png);
+    position: absolute;
+    right: 0;
+    top: -300px;
+}
+
+.a__quien .parrafo__a-quien{
+    width: 70%;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+.ejemplos__cursos{
+    height: 250px;
+}
+
+
+/*=====DÓNDE IMPARTEN?=====*/
+.donde__cursos{
+    margin-bottom: 4rem;
+}
+
+.donde__cursos .contenedor__titulo h2{
+    font-size: var(--txt-m-45);
+    line-height: 2.5rem;
+}
+
+.donde__cursos .contenedor__titulo p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*=====PRÓXIMSO EVENETOS=====*/
+.proximos__eventos .contenedor__eventos{
+    margin: 8rem 0 2rem 10rem;
+}
+
+
+/*=====UBICACIÓN MAPA=====*/
+.ubica__sede{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.ubica__sede .row:nth-child(1){
+    margin-bottom: 2.5rem;
+}
+
+.ubica__sede .contenedor__titulo__ubi h4{
+    font-size: var(--txt-m-45);
+    line-height: 2.5rem;
+}
+
+.ubica__sede .contenedor__parrafo__ubi p{
+    font-size: var(--txt-s-20);
+}
+
+/*======ACCERCA USG======*/
+.contenedor__acerca__usg .acerca__usg{
+    padding: 1rem 4rem;
+    margin-top: 1rem;
+}
+
+
+.contenedor__acerca__usg .acerca__usg{
+    margin-top: 1rem;
+}
+
+
+}
+
+
+/* Extra Large (1200px and up) */
+@media only screen and (min-width: 1200px){
+:root{
+
+    /*=====TAMAÑOS FUENTES=====*/
+    --txt-s-12: 0.75rem;
+    --txt-s-13: 0.82rem; 
+    --txt-s-17: 0.85rem;
+    --txt-s-20: 1.2rem;
+
+    --txt-m-22: 1.5rem;
+    --txt-m-25: 1.5rem;
+    --txt-m-30: 1rem;
+    --txt-m-45: 3rem;
+
+    --txt-g-60: 3.75rem;
+    --txt-g-75: 4rem;
+    --txt-g-100: 5rem;
+
+    /*=====ALTOS=====*/
+    --h-blog-c: 3rem;
+
+    /*ALTURA INPUTS*/
+
+    --h-inputs: 4rem;
+}
+
+/*=====HEADER=====*/
+.__header .__navbar .logo__letras{
+    width: 310px;
+    height: 37px;
+}
+
+
+/*=====HOME=====*/
+.__home .contenedor__formulario{
+    width: 100%;
+}
+
+.__home form .contenedor__input{
+    height: var(--h-inputs);
+}
+
+.que__es__academiausg .contenedor__tituloh2{
+    padding: 5rem;
+}
+
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .contenedor__tituloh2 h2{
+    width: 100%;
+    font-size: var(--txt-m-45);
+    line-height: 2.8rem;
+}
+
+.que__es__academiausg .contenedor__tituloh2 p{
+    font-size: var(--txt-s-20);
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos .titulos__blancos{
+    font-size: var( --txt-g-75);
+    margin: 3rem 0;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul li{
+    padding: 0.5rem 2.5rem;
+}
+
+
+/*=====A QUIEN?=====*/
+.a__quien::after{
+    content: url(../img/borde-abstracto-izquierdo-academia.png);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: -414px;
+}
+
+.a__quien::before{
+    content: url(../img/borde-abstracto-derecho-academia.png);
+    position: absolute;
+    right: 0;
+    top: -400px;
+}
+
+.a__quien .parrafo__a-quien{
+    width: 70%;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+.ejemplos__cursos{
+    height: 300px;
+}
+
+
+/*=====DÓNDE IMPARTEN?=====*/
+.donde__cursos .contenedor__titulo h2{
+    font-size: var(--txt-m-45);
+    line-height: 2.8rem;
+}
+
+.donde__cursos .contenedor__titulo p{
+    font-size: var(--txt-s-20);
+}
+
+
+/*=====EJEMPLOS EVENTOS=====*/
+.proximos__eventos .contenedor__eventos{
+    margin: 7rem 0 0 10rem;
+}
+
+.proximos__eventos .contenedor__eventos P{
+    margin-bottom: 1rem;
+}
+
+
+/*=====UBICACIÓN MAPA=====*/
+.ubica__sede .row:nth-child(1){
+    margin-bottom: 2.5rem;
+}
+
+.ubica__sede .contenedor__titulo__ubi h4{
+    font-size: var(--txt-m-45);
+    line-height: 2.8rem;
+}
+
+.ubica__sede .contenedor__parrafo__ubi p{
+    font-size: var(--txt-s-20);
+}
+
+}
+
+/* Extra Extra Large (1300px and up) */
+@media only screen and (min-width: 1300px){
+    .proximos__eventos .contenedor__eventos{
+        margin: 8rem 0 5rem 10rem;
+    }
+
+    .proximos__eventos .contenedor__eventos h5{
+        margin-bottom: 5rem;
+    }
+}
+
+/* Extra Extra Large (1355px and up) */
+@media only screen and (min-width: 1355px){
+    .que__es__academiausg .contenedor__tituloh2 h2{
+        padding-left: 8rem;
+    }
+}
+
+
+/* Extra Extra Large (1400px and up) */
+@media only screen and (min-width: 1400px){
+    .ejemplos__cursos{
+        height: 300px;
+    }
+}
+
+
+/* Extra Extra Large (1355px and up) */
+@media only screen and (min-width: 1451px){
+    .que__es__academiausg .contenedor__tituloh2 h2{
+        padding-left: 14rem;
+    }
+}
+
+
+/* Extra Extra Large (1579px and up) */
+@media only screen and (min-width: 1579){
+    .que__es__academiausg .contenedor__tituloh2 h2{
+        padding-left: 15rem;
+    }
+}
+
+
+/* Extra Extra Large (1500px and up) */
+@media only screen and (min-width: 1500px){
+    
+}
+
+
+/*=====BLOG CALCULADORA=====*/
+.blog__calculadora{
+    width: 100%;
+    height: var(--h-blog-c);
+
+    background: var(--rojo-usg);
+    color: white;
+
+    font-family: var(--GL);
+    font-size: var(--txt-s-17);
+}
+
+.blog__calculadora .contenedor__blog{
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.blog__calculadora .fila__blog-c{
+    height: 100%;
+}
+
+.blog__calculadora .fila__blog-c .__blog, .__calculadora{
+    cursor: pointer;
+}
+
+
+/*=====HEADER=====*/
+.__header{
+    background: var(--bg-nav);
+}
+
+.__header .__navbar{
+    width: 90%;
+}
+
+.__header .__navbar ul li{
+    font-family: var(--GL);
+    font-size: var(--txt-s-17);
+}
+
+.__header .__navbar ul li .active{
+    color: var(--rojo-usg);
+}
+
+.__header .__navbar ul a{
+    color: var(--li);
+}
+
+.__header .__navbar ul a:hover{
+    color: var(--li-hover);
+}
+
+.__header .__navbar .contenedor__buscador{
+    width: auto;
+    position: relative;
+}
+
+.__header .__navbar .contenedor__buscador .icono-buscar{
+    width: 0px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.6s ease;
+    background-color: transparent;
+    color: var(--blanco-usg);
+    font-family: var(--GEL);
+}
+
+.__header .__navbar .contenedor__buscador .icono-buscar::placeholder{
+    color: var(--blanco-usg);
+    font-family: var(--GNEL);
+}
+
+.__header .__navbar .contenedor__buscador button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 10px;
+    width: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--blanco-usg);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.__header .__navbar .contenedor__buscador:hover input{
+    width: 200px;
+}
+
+.__header .__navbar .contenedor__buscador input:focus{
+    width: 200px;
+}
+
+
+/*=====SECTION HOME=====*/
+.__home{
+    background: url(../img/cursos-online-academia-usg-bn.jpg?v=2);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.__home .contenedor__formulario{
+    background-color: white;
+    height: auto;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.__home .contenedor__formulario h5{
+    font-size: var(--txt-m-22);
+    font-family: var(--GB);
+    color: var(--negro);
+}
+
+.__home form .__input,
+.__home form .__select{
+    background-color: var(--bg-input);
+    border-radius: 40px;
+    border: none;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.__home form input::placeholder{
+    font-size: var(--txt-s-13);
+    font-family: var(--MPR);
+    color: var(--txt-inputs);
+}
+
+.__home form .__select::placeholder{
+    font-size: var(--txt-s-13);
+    font-family: var(--MPR);
+    color: var(--txt-inputs);
+}
+
+.__home form .__input:focus{
+    box-shadow: 0px 0px 5px 1px var(--li);
+}
+
+.__home form .__select:focus{
+    box-shadow: 0px 0px 5px 1px var(--li);
+}
+
+.__home form .__input:focus-visible{
+    outline: none;
+}
+
+.__home form .contenedor__input select option,
+.__home form .contenedor__input select{
+    font-size: var(--txt-s-13);
+    font-family: var(--MPR);
+    color: var(--txt-inputs);
+}
+
+.__home form .label__check{
+    font-size: var(--txt-s-12);
+    font-family: var(--MPR);
+    line-height: 0.8rem;
+}
+
+.__home form button{
+    font-size: var(--txt-s-13);
+    font-family: var(--MPR);
+    background-color: var(--rojo-usg);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.__home form button:hover{
+    background-color: var(--txt);
+    box-shadow: 0 0 10px 1px var(--li);
+}
+
+.__home .contenedor__tituloh1{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+/*=====SECTION QUÉ ES USG=====*/
+.que__es__academiausg .contenedor__tituloh2 h2{
+    text-align: right;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos{
+    background-color: var(--rojo-usg);
+    height: auto;
+    padding: 0 2rem;
+    max-width: 70%;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul{
+    margin-bottom: 0;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul li{
+    background-color: var(--blanco-usg);
+    font-family: var(--GBook);
+    color: var(--txt);
+    border-radius: 20px;
+}
+
+.que__es__academiausg .columna__cursos .contenedor__cursos ul a li:hover{
+    background-color: var(--txt);
+    color: var(--blanco-usg);
+    transition: 0.3s;
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02{
+    background-color: var(--rojo-usg);
+    height: auto;
+    border-radius: 20px;
+    padding: 0 2rem;
+    max-width: 70%;
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02 ul{
+    margin-bottom: 0;
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02 ul li{
+    background-color: var(--blanco-usg);
+    font-family: var(--GBook);
+    color: var(--txt);
+    border-radius: 20px;
+    padding: 0.5rem 2.5rem;
+}
+
+.que__es__academiausg .columna__cursos-02 .contenedor__cursos-02 ul a li:hover{
+    background-color: var(--txt);
+    color: var(--blanco-usg);
+    transition: 0.3s;
+}
+
+
+/*=====SECTION A QUIÉN VA DIRIGIDO=====*/
+
+.a__quien{
+    background: none;
+    position: relative;
+}
+
+.a__quien .__titulo3{
+    font-size: var(--txt-g-75);
+    font-family: var(--GNB);
+
+    color: var(--blanco-usg);
+
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 2.5rem;
+}
+
+.a__quien .parrafo__a-quien{
+    font-size: var(--txt-s-17);
+    font-family: var(--GL);
+    color: var(--blanco-usg);
+    text-align: left;
+}
+
+
+/*=====EJEMPLOS CURSOS=====*/
+
+.ejemplos__cursos .contenedor__ejemplos-cursos .card{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos .card img{
+    filter: brightness(50%);
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos .card:hover img{
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos .card h5{
+    font-size: var(--txt-g-60);
+    font-family: var(--GNB);
+    line-height: 85%;
+    z-index: 30;
+    margin: 10%;
+}
+
+.ejemplos__cursos .contenedor__ejemplos-cursos .card h5 span{
+    color: var(--rojo-usg);
+}
+
+
+/*=====SECTION DÓNDE SE IMPARTEN LOS CURSOS=====*/
+
+.donde__cursos{
+   height: auto;
+}
+
+.donde__cursos .contenedor__titulo h2{
+    font-family: var(--GNB);
+    text-transform: uppercase;
+
+    color: var(--txt);
+}
+
+.donde__cursos .contenedor__parrafo p{
+    font-size: var(--txt-s-20);
+    font-family: var(--GL);
+}
+
+
+/*=====SECTION PROXIMOS EVENTOS=====*/
+.proximos__eventos{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.proximos__eventos .contenedor__eventos{
+    width: 40%;
+}
+
+.proximos__eventos .card-img-overlay h5{
+    font-size: var(--txt-g-100);
+    font-family: var(--GB);
+    margin: 0;
+    line-height: 4rem;
+}
+
+.proximos__eventos .card-img-overlay p{
+    font-size: var(--txt-s-17);
+    font-family: var(--GL);
+}
+
+.proximos__eventos .card-img-overlay .__botones button{
+    background: var(--rojo-usg);
+    font-size: 1.5rem;
+    font-family: var(--GNEL);
+    color: var(--blanco-usg);
+    border: none;
+    transition: 0.5s;
+    padding: 0.5rem 0;
+    width: 400px;
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.proximos__eventos .card-img-overlay .__botones button:hover{
+    background: #731826;
+}
+
+/*========================================*/
+.proximos__eventos-02{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.proximos__eventos-02 .contenedor__eventos-02{
+    width: 100%;
+}
+
+.proximos__eventos-02 .card-img-overlay h5{
+    font-family: var(--GB);
+}
+
+.proximos__eventos-02 .card-img-overlay p{
+    font-family: var(--GL);
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02 button{
+    background: var(--rojo-usg);
+    font-family: var(--GNEL);
+    color: var(--blanco-usg);
+    border: none;
+    transition: 0.5s;
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.proximos__eventos-02 .card-img-overlay .__botones-02 button:hover{
+    background: #731826;
+}
+
+
+/*=====SECTION PROXIMOS CURSOS=====*/
+.ubica__sede{
+    height: auto;
+ }
+ 
+ .ubica__sede .contenedor__titulo__ubi h4{
+     font-family: var(--GNB);
+     text-transform: uppercase;
+ 
+     color: var(--txt);
+ }
+ .ubica__sede .contenedor__parrafo__ubi p{
+     font-size: var(--txt-s-20);
+     font-family: var(--GL);
+ }
+
+.ubica__sede .contenedor__parrafo__mapa p:nth-child(1){
+    font-size: var(--txt-m-30);
+    font-family: var(--GB);
+    color: var(--rojo-usg);
+}
+
+.ubica__sede .contenedor__parrafo__mapa p:nth-child(2){
+    font-size: var(--txt-s-17);
+    font-family: var(--GL);
+    color: var(--txt);
+}
+
+
+/*=====SECTION PROXIMOS CURSOS=====*/
+.__footer{
+    background: url(../img/bg-footer-academia.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.__footer::before{
+    content: url(../img/borde-abtract-footer.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.__footer .contenedor__logo-academia-blanco{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.__footer .contenedor__redes-sociales .__contacto p:nth-child(1){
+    font-size: 0.75rem;
+}
+
+.__footer .contenedor__redes-sociales .__contacto .numero__contacto{
+    font-size: 1.1rem;
+    font-family: var(--GNB);
+}
+
+.__footer .contenedor__redes-sociales .__contacto .redes__sociales a{
+    background-color: var(--blanco-usg);
+    color: var(--txt);
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.__footer .contenedor__redes-sociales .__contacto .redes__sociales a:hover{
+    background-color: var(--txt);
+    color: var(--blanco-usg);
+}
+
+.__footer .__copy{
+    background-color: var(--blanco-usg);
+}
+
+.__footer .__copy .contenedor__copy p{
+    font-size: 0.6rem;
+}
+
+.__footer .__copy .contenedor__copy a{
+    font-size: 0.6rem;
+    color: var(--txt);
+}
+
+
+
+
+
+
+
+
+
+/*=========================ESTILLOS MENSAJE CONFIRMACIÓN=========================*/
+
+/* Extra small (567px and down) */
+@media only screen and (max-width: 567px){
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion{
+        height: 450px;
+        padding: 0 1rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion{
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div{
+        margin-left: 5%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::before{
+        display: none;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Extra small (567px and up) */
+@media only screen and (min-width: 567px){
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        font-size: 2.2rem;
+        line-height: 2rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion{
+        height: 450px;
+        padding: 0;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion{
+        height: 100%;
+        border-radius: 50px;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div{
+        margin-left: 5%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::before{
+        display: none;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Small (768px and up) */
+@media only screen and (min-width: 768px){
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        font-size: 2.5rem;
+        line-height: 2.3rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion{
+        height: 450px;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion{
+        height: 100%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div{
+        margin-left: 5%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Large (992 and up) */
+@media only screen and (min-width: 992px){
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        font-size: 2.8rem;
+        line-height: 2.6rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion{
+        position: relative;
+        height: 660px;
+    }
+
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        margin: 5% 0 5% 10%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion{
+        position: absolute;
+        height: 65%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div{
+        margin-left: 7%;
+        position: relative;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after{
+        top: -140px;
+        left: 50px;
+        display: block;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+        font-size: 0.8rem;
+    }
+
+}
+
+
+/* Extra large (1200px and up) */
+@media only screen and (min-width: 1200px){
+    .mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div{
+        margin-left: 10%;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after{
+        top: -140px;
+        left: 70px;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::before{
+        bottom: -217px;
+        left: -30px;
+        display: block;
+    }
+
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+        font-size: 2.5rem;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+        font-size: 0.9rem;
+    }
+
+    
+}
+
+
+/* Extra large (1400px and up) PSEUDOELEMENTOS */
+@media only screen and (min-width: 1400px){
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after{
+        top: -160px;
+        left: 100px;
+    }
+    
+    .mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::before{
+        bottom: -239px;
+        left: 0;
+    }
+}
+
+
+
+/*=====MENSAJE CONFIRMACIÓN=====*/
+.mensaje__confirmacion{
+    background: url(../img/bg-mensaje-confirmacion.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: auto;
+    margin: 3rem 0;
+}
+
+.mensaje__confirmacion .contenedor__titulo-confirfacion h5{
+    text-transform: uppercase;
+}
+
+.mensaje__confirmacion article .columna__foto__mensaje{
+    background: url(../img/bg-foto-mensaje-confirmacion.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 660px;
+    border-radius: 50px;
+    padding: 0;
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion{
+    background-color: transparent;
+
+    border-radius: 50px;
+    margin: 0;
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion{
+    background: url(../img/bg-mensaje-letras.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::after{
+    content: url(../img/logo-academia-usg-colores.png);
+    position: absolute;
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion div::before{
+    content: url(../img/borde-abtract-confirmacion.png);
+    position: absolute;
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion h6{
+    font-family: var(--GNB);
+    color: var(--txt);
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p,
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul li{
+    font-family: var(--GBook);
+    color: var(--txt);
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion p span{
+    font-family: var(--GNB);
+}
+
+.mensaje__confirmacion article .columna__mensaje__confirmacion .contenedor__mensaje__confirmacion ul{
+    list-style-type: disc;
+}
+
+.contenedor__acerca__usg{
+    background-color: #f3f3f3;
+}
+
+.contenedor__acerca__usg .acerca__usg{
+    font-size: 0.85rem;
+    font-family: var(--GL);
+    color: var(--txt);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================ESTILLOS CURSOS PRESENCIALES=========================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /*====SECCIÓN 2====*/
+
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: auto;
+    }
+
+    main .seccion_03{
+        margin-top: 1rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+        width: 70%;
+    }
+  } 
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: auto;
+    }
+
+    main .seccion_03{
+        margin-top: 1rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.2rem;
+        line-height: 2.1rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+        width: 70%;
+    }
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    main .seccion_02{
+        margin: 1rem 0;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+    }
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    header nav .row .menu form input{
+        width: 100%;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: 600px;
+    }
+    
+    main .seccion_02 .row div{
+        position: absolute;
+        top: -390px;
+        left: 0;
+        z-index: -100;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.7rem;
+        line-height: 2.4rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 1rem;
+        width: 50%;
+    }
+
+    main .seccion_03{
+        margin-top: 3rem;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        width: 30%;
+    }
+
+    main .seccion_03{
+        margin-top: 3rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 3rem;
+        line-height: 2.7rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 1rem;
+    }
+}
+
+
+/*====SECCIÓN 1 CURSOS====*/
+
+main .seccion_01 .row .contenedor__presenciales .contenedor-sec_02{
+    background: url(../img/background-foto_01-presenciales.png?v=2);
+    background-position: left top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    height: 770px;
+    position: relative;
+}
+
+main .seccion_01 .row div .contenedor-sec_02::before{
+    content: url('../img/elemento-before-cursos-presenciales.png?v=2');
+    position: absolute;
+    left: -162px;
+    bottom: 0;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+    font-family: var(--GNB);
+    margin-left: 10%;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 p{
+    font-family: var(--GL);
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+/*====SECCIÓN 2 CURSOS====*/
+
+main .seccion_02 .row .contenedor-sec_03{
+    background-color: #f0f0f0;
+}
+
+main .seccion_02 .row{
+    position: relative;
+}
+
+main .seccion_02 .row div .contenedor-sec_03{
+    width: 100%;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+/*====CURSOS====*/
+
+main .seccion_03 .row .columna_inde{
+    margin-bottom: 3.5rem;
+}
+
+main .seccion_03 .row div .contenedor_cards .card{
+    background: url(../img/background-foto_02.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 0 30px 35px 35px;
+    border: none;
+}
+
+main .seccion_03 .row .contenedor_cards-presenciales .contenedor_cards .card .card-body{
+    background: url(../img/backgroun-cards-presenciales.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 30px;
+    padding: 3rem 0;
+    padding-top: 9rem;
+    margin-top: 20rem;
+    box-shadow: 0px 10px 10px -6px var(--sombra);
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body .parrafos{
+    width: 80%;
+    margin: auto;
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body p{
+    font-family: var(--GL);
+    color: var(--txt);
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body p span{
+    font-family: var(--GNB);
+    color: var(--txt);
+}
+
+main .seccion_03 .row .contenedor_cards-presenciales .contenedor_cards .card .card-body .btn{
+    width: 55%;
+    background-color: #aa172c;
+    color: var(--blanco-usg);
+    border-radius: 0;
+    transition: .5s;
+}
+
+main .seccion_03 .row .contenedor_cards-presenciales .contenedor_cards .card .card-body .btn:hover{
+    background-color: #8b1526;
+    color: var(--blanco-usg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================ESTILLOS CURSOS ONLINE=========================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /*====SECCIÓN 2====*/
+
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: auto;
+    }
+
+    main .seccion_03{
+        margin-top: 1rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+        width: 70%;
+    }
+  } 
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: auto;
+    }
+
+    main .seccion_03{
+        margin-top: 1rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.2rem;
+        line-height: 2.1rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+        width: 70%;
+    }
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    main .seccion_02{
+        margin: 1rem 0;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 0.85rem;
+    }
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    header nav .row .menu form input{
+        width: 100%;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03{
+        height: 600px;
+    }
+    
+    main .seccion_02 .row div{
+        position: absolute;
+        top: -390px;
+        left: 0;
+        z-index: -100;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 2.7rem;
+        line-height: 2.4rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 1rem;
+        width: 50%;
+    }
+
+    main .seccion_03{
+        margin-top: 3rem;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        width: 30%;
+    }
+
+    main .seccion_03{
+        margin-top: 3rem;
+    }
+
+    main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+        font-size: 3rem;
+        line-height: 2.7rem;
+    }
+    
+    main .seccion_02 .row div .contenedor-sec_03 p{
+        font-size: 1rem;
+    }
+}
+
+
+/*====SECCIÓN 1 CURSOS====*/
+
+main .seccion_01 .row .contenedor__online .contenedor-sec_02{
+    background: url(../img/background-foto_01-online.png?v=2);
+    background-position: left top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    height: 770px;
+    position: relative;
+}
+
+main .seccion_01 .row .contenedor__online .contenedor-sec_02::before{
+    content: url('../img/elemento-before-cursos-online.png?v=2');
+    position: absolute;
+    left: -162px;
+    bottom: 0;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+    font-family: var(--GNB);
+    margin-left: 10%;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 p{
+    font-family: var(--GL);
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+/*====SECCIÓN 2 CURSOS====*/
+
+main .seccion_02 .row .contenedor-sec_03{
+    background-color: #f0f0f0;
+}
+
+main .seccion_02 .row{
+    position: relative;
+}
+
+main .seccion_02 .row div .contenedor-sec_03{
+    width: 100%;
+}
+
+main .seccion_02 .row div .contenedor-sec_03 .titulo_seccion-02{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+/*====CURSOS====*/
+
+main .seccion_03 .row .columna_inde{
+    margin-bottom: 3.5rem;
+}
+
+main .seccion_03 .row div .contenedor_cards .card{
+    background: url(../img/background-foto_02.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 0 30px 35px 35px;
+    border: none;
+}
+
+main .seccion_03 .row .contenedor__online .contenedor_cards .card .card-body{
+    background: url(../img/backgroun-cards-online.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 30px;
+    padding: 3rem 0;
+    padding-top: 9rem;
+    margin-top: 20rem;
+    box-shadow: 0px 10px 10px -6px var(--sombra);
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body .parrafos{
+    width: 80%;
+    margin: auto;
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body p{
+    font-family: var(--GL);
+    color: var(--txt);
+}
+
+main .seccion_03 .row div .contenedor_cards .card .card-body p span{
+    font-family: var(--GNB);
+    color: var(--txt);
+}
+
+main .seccion_03 .row .contenedor__online .contenedor_cards .card .card-body .btn{
+    width: 55%;
+    background-color: #52565a;
+    color: var(--blanco-usg);
+    border-radius: 0;
+    transition: .5s;
+}
+
+main .seccion_03 .row .contenedor__online .contenedor_cards .card .card-body .btn:hover{
+    background-color: #272727;
+    color: var(--blanco-usg);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================ESTILOS PREINSCRIPCION=========================*/
+
+@media (min-width: 300px) and (max-width: 510px){
+    .formulario__preinscripcion{
+        width: 90%;
+        margin-top: 10%;
+        border-radius: 45px;
+        height: auto;
+    }
+}
+
+
+
+/* Extra small (567px and down) */
+@media only screen and (max-width: 567px){
+    .formulario__preinscripcion{
+        width: 90%;
+        margin-top: 10%;
+        border-radius: 45px;
+    }
+
+
+    .formulario__preinscripcion .columna__formulario .contenedor__formulario form .form-check p{
+        font-size: 0.85rem;
+        line-height: 0.85rem;
+    }
+}
+
+
+/* Extra small (567px and up) */
+@media only screen and (min-width: 567px){
+    .formulario__preinscripcion{
+        width: 80%;
+        margin-top: 10%;
+        border-radius: 45px;
+    }
+
+
+    .formulario__preinscripcion .columna__formulario .contenedor__formulario form .form-check p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+
+
+@media (min-width: 568px) and (max-width: 630px){
+    .formulario__preinscripcion{
+        width: 80%;
+        margin-top: 10%;
+        border-radius: 45px;
+    }
+
+
+}
+
+
+/* Small (768px and up) */
+@media only screen and (min-width: 768px){
+    .formulario__preinscripcion{
+        width: 80%;
+        margin-top: 10%;
+        border-radius: 45px 0 40px 40px;
+    }
+
+}
+
+
+/* Small (min-width: 768px) and (max-width: 830px) */
+@media (min-width: 768px) and (max-width: 830px){
+    .formulario__preinscripcion{
+        width: 80%;
+        margin-top: 10%;
+        border-radius: 45px 0 40px 40px;
+    }
+}
+
+
+/* Large (992 and up) */
+@media only screen and (min-width: 992px){
+    .formulario__preinscripcion{
+        width: 80%;
+        margin-top: 20%;
+        border-radius: 45px 0 40px 40px;
+    }
+
+
+    .formulario__preinscripcion .columna__formulario .contenedor__formulario form .form-check p{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+}
+
+
+/* Extra large (1200px and up) */
+@media only screen and (min-width: 1200px){
+    .formulario__preinscripcion{
+
+    }
+
+
+}
+
+
+/* Extra large (1400px and up) */
+@media only screen and (min-width: 1400px){
+    .formulario__preinscripcion{
+ 
+        margin-top: 15%;
+    }
+
+}
+
+
+main .seccion_01 .row .contenedor__preinscripcion .contenedor-sec_02{
+    background: url(../img/background-foto_01.png);
+    background-position: left top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    height: 770px;
+    position: relative;
+}
+
+main .seccion_01 .row .contenedor__preinscripcion .contenedor-sec_02::before{
+    content: url('../img/elemento-before-cursos.png');
+    position: absolute;
+    left: -162px;
+    bottom: 0;
+}
+
+.formulario__preinscripcion{
+    background: url(../img/bg-foto-preinscripcion.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 0;
+}
+
+.formulario__preinscripcion .columna__formulario{
+    background-color: var(--blanco-usg);
+    border-radius: 40px;
+    height: auto;
+    box-shadow: 0px 0px 50px 1px #e2e2e2;
+}
+
+.formulario__preinscripcion .columna__formulario .textos__formularios{
+    padding: 2rem 10% 1rem 10%;
+}
+
+.formulario__preinscripcion .columna__formulario .textos__formularios h6{
+    font-size: 1.5rem;
+    font-family: var(--GNB);
+    text-align: center;
+    color: var(--rojo-usg);
+}
+
+.formulario__preinscripcion .columna__formulario .textos__formularios p{
+    font-size: 1rem;
+    font-family: var(--GEL);
+    text-align: left;
+    color: var(--txt);
+}
+
+.formulario__preinscripcion .columna__formulario .textos__formularios p span{
+    font-family: var(--GNB);
+}
+
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form select{
+    border: 1px solid #e2e2e2;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form input:focus,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form select:focus{
+    box-shadow: 0px 0px 15px 1px #e2e2e2;
+}
+
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form select{
+    color: #333333;
+    font-family: var(--GBook);
+    background-color: var(--blanco-usg);
+}
+
+.__home form .nombre.alerta input,
+.__home form .apellidos.alerta input,
+.__home form .telefono.alerta input,
+.__home form .mail.alerta input,
+.__home form .pais.alerta input,
+.__home form .programa.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .nombre.alerta input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .paterno.alerta input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .materno.alerta input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .mail.alerta input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .telefono.alerta input,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .diacurso.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .estado.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .municipio.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .dianacimiento.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .mesnacimiento.alerta select,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .anionacimiento.alerta select{
+    border: 2px solid #9e2d3f;
+    font-family: var(--GBook);
+    font-weight: bold;
+    background-color: var(--blanco-usg);
+}
+
+.__home form .checkAdP.alerta label,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .genero.alerta label,
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .infoProductos.alerta label{
+    color: var(--rojo-usg);
+    font-weight: bold;
+}
+
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .form-check p{
+    font-family: var(--GBook);
+    color: var(--txt);
+}
+
+.formulario__preinscripcion .columna__formulario .contenedor__formulario form .form-check label{
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-family: var(--GBook);
+    color: var(--txt);
+    margin-right: 1.5rem;
+}
+
+.contenedor__boton .contenedor__boton__parrafo button{
+    background-color: #52565a;
+    font-size: 1.2rem;
+    font-family: var(--GNB);
+    color: white;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+    transition: 0.3s;
+}
+
+.contenedor__boton .contenedor__boton__parrafo button:hover{
+    background-color: #999999;
+    color: var(--negro);
+}
+
+.contenedor__boton .contenedor__boton__parrafo p{
+    font-size: 1rem;
+    font-family: var(--GBook);
+    padding: 5% 15% 0 15%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*=========================ESTILOS LISTA INSTALADORES=========================*/
+/* Extra small (567px and down) */
+@media only screen and (max-width: 567px){
+    .lista__miembros{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: none;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-instaladores{
+        width: 60px;
+        height: 67px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 0.85rem;
+        line-height: 1rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros{
+        width: 100%;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 10%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+        padding: 11% 0;
+    }
+
+    .tabla__lista__miembros .segunda__fila,
+    .tabla__lista__miembros .cuarta__fila{
+    border-radius: 0;
+}
+
+}
+
+
+/* Extra small (567px and up) */
+@media only screen and (min-width: 567px){
+    .lista__miembros{
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: none;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-instaladores{
+        width: 70px;
+        height: 78px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.1rem;
+        line-height: 1.8rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 250px;
+        margin-bottom: 0.8rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 7%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.85rem;
+        line-height: 0.85rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        padding: 13% 0;
+    }
+
+    .tabla__lista__miembros .segunda__fila,
+    .tabla__lista__miembros .cuarta__fila{
+    border-radius: 20px;
+}
+
+}
+
+
+/* Small (768px and up) */
+@media only screen and (min-width: 768px){
+    .lista__miembros{
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-instaladores{
+        width: 70px;
+        height: 78px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.4rem;
+        line-height: 2.1rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 290px;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 7%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        padding: 13% 0;
+    }
+
+}
+
+
+/* Large (992 and up) */
+@media only screen and (min-width: 992px){
+    .lista__miembros{
+        padding-top: 6%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: block;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-instaladores{
+        width: 87px;
+        height: 97px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.7rem;
+        line-height: 2.4rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 5%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.85rem;
+        line-height: 1rem;
+        padding: 13% 0;
+    }
+
+}
+
+
+/* Extra large (1200px and up) */
+@media only screen and (min-width: 1200px){
+    .lista__miembros{
+        padding-top: 8%;
+        margin-bottom: 3%;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 3rem;
+        line-height: 2.7rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 15% 0;
+    }
+
+    .margin-preinscripcion{
+        margin-top: 150%;
+    }
+
+}
+
+
+.lista__miembros{
+    position: relative;
+}
+
+.lista__miembros::before{
+    content: url(../img/borde-abstract-lista-miembros.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.lista__miembros .contenedor__titulo__lista__miembro h5{
+    text-transform: uppercase;
+}
+
+.lista__miembros .contenedor__boton_miembros button{
+    background-color: var(--rojo-usg);
+    font-size: 1.1rem;
+    font-family: var(--GNEL);
+    border: none;
+    color: var(--blanco-usg);
+    padding: 0.3rem 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.lista__miembros .contenedor__boton_miembros button:hover{
+    background-color: #941627;
+}
+
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input input,
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input select{
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    font-family: var(--GNEL);
+    border: none;
+    outline: none;
+    padding: 0.5rem 0;
+    color: #616A6B;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #e2e2e2;
+}
+
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input input:focus,
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input select:focus{
+    box-shadow: 0px 0px 10px 1px #e2e2e2;
+}
+
+.tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+    font-family: var(--GNB);
+    color: var(--txt);
+}
+
+.tabla__lista__miembros .primera__fila .col,
+.tabla__lista__miembros .segunda__fila .col,
+.tabla__lista__miembros .tercera__fila .col,
+.tabla__lista__miembros .cuarta__fila .col,
+.tabla__lista__miembros .quinta__fila .col{
+    width: 20%;
+}
+
+.tabla__lista__miembros .primera__fila .col p,
+.tabla__lista__miembros .segunda__fila .col p,
+.tabla__lista__miembros .tercera__fila .col p,
+.tabla__lista__miembros .cuarta__fila .col p,
+.tabla__lista__miembros .quinta__fila .col p{
+    color: var(--txt);
+}
+
+.tabla__lista__miembros .segunda__fila .col:nth-child(1),
+.tabla__lista__miembros .segunda__fila .col:nth-child(3),
+.tabla__lista__miembros .tercera__fila .col:nth-child(1),
+.tabla__lista__miembros .tercera__fila .col:nth-child(3),
+.tabla__lista__miembros .cuarta__fila .col:nth-child(1),
+.tabla__lista__miembros .cuarta__fila .col:nth-child(3),
+.tabla__lista__miembros .quinta__fila .col:nth-child(1),
+.tabla__lista__miembros .quinta__fila .col:nth-child(3){
+    font-family: var(--GNB);
+}
+
+
+
+
+
+
+
+
+
+
+/*=========================ESTILOS LISTA MIEMBROS EMPRESAS=========================*/
+/* Extra small (567px and down) */
+@media only screen and (max-width: 567px){
+    .lista__miembros{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: none;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-empresas{
+        width: 55px;
+        height: 64px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 0.85rem;
+        line-height: 1rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros{
+        width: 100%;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 100%;
+        margin-bottom: 0.8rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 10%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.7rem;
+        line-height: 0.9rem;
+        padding: 11% 0;
+    }
+
+    .tabla__lista__miembros .segunda__fila,
+    .tabla__lista__miembros .cuarta__fila{
+    border-radius: 0;
+}
+
+}
+
+
+/* Extra small (567px and up) */
+@media only screen and (min-width: 567px){
+    .lista__miembros{
+        padding-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: none;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-empresas{
+        width: 65px;
+        height: 76px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.1rem;
+        line-height: 1.8rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 250px;
+        margin-bottom: 0.8rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 7%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.85rem;
+        line-height: 0.85rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        padding: 13% 0;
+    }
+
+    .tabla__lista__miembros .segunda__fila,
+    .tabla__lista__miembros .cuarta__fila{
+    border-radius: 20px;
+}
+
+}
+
+
+/* Small (768px and up) */
+@media only screen and (min-width: 768px){
+    .lista__miembros{
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-empresas{
+        width: 65px;
+        height: 76px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.4rem;
+        line-height: 2.1rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .lista__miembros .contenedor__boton_miembros button{
+        width: 290px;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 7%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.8rem;
+        line-height: 0.9rem;
+        padding: 13% 0;
+    }
+
+}
+
+
+/* Large (992 and up) */
+@media only screen and (min-width: 992px){
+    .lista__miembros{
+        padding-top: 6%;
+        margin-bottom: 5%;
+    }
+
+    .lista__miembros::before{
+        content: url(../img/borde-abstract-lista-miembros.png);
+        display: block;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro .icono-lista-empresas{
+        width: 80px;
+        height: 93px;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 2.7rem;
+        line-height: 2.4rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .contenedor__acerca__usg{
+        margin-top: 5%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 0.85rem;
+        line-height: 1rem;
+        padding: 13% 0;
+    }
+
+}
+
+
+/* Extra large (1200px and up) */
+@media only screen and (min-width: 1200px){
+    .lista__miembros{
+        padding-top: 8%;
+        margin-bottom: 3%;
+    }
+
+    .lista__miembros .contenedor__titulo__lista__miembro h5{
+        font-size: 3rem;
+        line-height: 2.7rem;
+    }
+    
+    .lista__miembros .contenedor__parrafo__lista__miembro p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .formulario__miembros{
+        margin-bottom: 40px;
+    }
+
+    .tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .tabla__lista__miembros .primera__fila .col,
+    .tabla__lista__miembros .segunda__fila .col,
+    .tabla__lista__miembros .tercera__fila .col,
+    .tabla__lista__miembros .cuarta__fila .col,
+    .tabla__lista__miembros .quinta__fila .col{
+        padding: 0 1%;
+    }
+    
+    .tabla__lista__miembros .primera__fila .col p,
+    .tabla__lista__miembros .segunda__fila .col p,
+    .tabla__lista__miembros .tercera__fila .col p,
+    .tabla__lista__miembros .cuarta__fila .col p,
+    .tabla__lista__miembros .quinta__fila .col p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 15% 0;
+    }
+
+}
+
+
+.lista__miembros{
+    position: relative;
+}
+
+.lista__miembros::before{
+    content: url(../img/borde-abstract-lista-miembros.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.lista__miembros .contenedor__titulo__lista__miembro h5{
+    text-transform: uppercase;
+}
+
+.lista__miembros .contenedor__boton_miembros button{
+    background-color: var(--rojo-usg);
+    font-size: 1.1rem;
+    font-family: var(--GNEL);
+    border: none;
+    color: var(--blanco-usg);
+    padding: 0.3rem 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.lista__miembros .contenedor__boton_miembros button:hover{
+    background-color: #941627;
+}
+
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input input,
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input select{
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    font-family: var(--GNEL);
+    border: none;
+    outline: none;
+    padding: 0.5rem 0;
+    color: #616A6B;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #e2e2e2;
+}
+
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input input:focus,
+.formulario__miembros .contenedor__formulario-miembros .contenedor__input select:focus{
+    box-shadow: 0px 0px 10px 1px #e2e2e2;
+}
+
+.tabla__lista__miembros .primera__fila .col .tabla__contenedor__txt p{
+    font-family: var(--GNB);
+    color: var(--txt);
+}
+
+.tabla__lista__miembros .primera__fila .col,
+.tabla__lista__miembros .segunda__fila .col,
+.tabla__lista__miembros .tercera__fila .col,
+.tabla__lista__miembros .cuarta__fila .col,
+.tabla__lista__miembros .quinta__fila .col{
+    width: 20%;
+}
+
+.tabla__lista__miembros .primera__fila .col p,
+.tabla__lista__miembros .segunda__fila .col p,
+.tabla__lista__miembros .tercera__fila .col p,
+.tabla__lista__miembros .cuarta__fila .col p,
+.tabla__lista__miembros .quinta__fila .col p{
+    color: var(--txt);
+}
+
+.tabla__lista__miembros .segunda__fila .col:nth-child(1),
+.tabla__lista__miembros .segunda__fila .col:nth-child(3),
+.tabla__lista__miembros .tercera__fila .col:nth-child(1),
+.tabla__lista__miembros .tercera__fila .col:nth-child(3),
+.tabla__lista__miembros .cuarta__fila .col:nth-child(1),
+.tabla__lista__miembros .cuarta__fila .col:nth-child(3),
+.tabla__lista__miembros .quinta__fila .col:nth-child(1),
+.tabla__lista__miembros .quinta__fila .col:nth-child(3){
+    font-family: var(--GNB);
+}
+
+
+@media (min-width: 200px) and (max-width: 300px){
+    .margin-preinscripcion{
+        margin-top: 110%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px){
+    .margin-preinscripcion{
+        margin-top: 70%;
+    }
+}
+
+/*=========================ESTILOS PREINSCRIPCION=========================*/
+
+
+.modal-dialog{
+    max-width: 700px;
+}
+
+.modal-dialog .calendar{
+    background: #e6e7e7;
+    border-radius: 15px;
+}
+
+.modal-dialog .calendar .modal-header{
+    border: none;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    color: var(--rojo-usg);
+    font-size: 1.5rem;
+    font-family: var(--GNB);
+}
+
+.modal-dialog .calendar .container__days-week{
+    background: white;
+    padding: 3px;
+}
+
+.modal-dialog .calendar .container__days-week .modal-body{
+    padding: 0 0 3px 0;
+}
+
+.modal-dialog .calendar .container__days-week .calendar__week{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 3px;
+    font-size: 0.75rem
+}
+
+.modal-dialog .calendar .container__days-week .calendar__dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 3px;
+    text-align: right;
+    padding: 0
+}
+
+.calendar__last-days{
+    visibility: hidden;
+}
+
+.calendar__date{
+    background-color: #f0f0f1;
+}
+
+.calendar__today{
+    background-color: #2ECC71;
+    color: white;
+}
+
+.calendar__hoy{
+    background-color: #999999;
+    color: white;
+}
+
+.calendar__week{
+    padding: 0 0 3px 0;
+    font-family: var(--GBook);
+}
+
+.calendar__week div{
+    padding: 0.5rem 0;
+}
+
+.calendar__week .calendar__day{
+    background-color: var(--bg-nav);
+    color: var(--blanco-usg);
+}
+
+.calendar__week div:nth-child(7){
+    background: var(--rojo-usg);
+}
+
+.calendar__dates div{
+    padding: 1rem 3px 0 0;
+}
+
+.calendar__dates div:nth-child(7),
+.calendar__dates div:nth-child(14),
+.calendar__dates div:nth-child(21),
+.calendar__dates div:nth-child(28),
+.calendar__dates div:nth-child(35){
+    /*color: var(--rojo-usg);
+    background-color: #e6e7e8;*/
+}
+
+.pleca-titulo-bienvenidos {
+    background-color: var(--rojo-usg);
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.btn_inscripcion{
+    background-color: #aa172c;
+    color: var(--blanco-usg);
+    border-radius: 0;
+    transition: .5s;
+}
+
+.btn_inscripcion:hover{
+    background-color: #8b1526;
+    color: var(--blanco-usg);
+}
+
+.card {
+border: none;
+}
+
+.cont_cursosPresenciales{
+    background: url(../img/backgroun-cards-presenciales.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 30px;
+    padding: 3rem;
+    padding-top: 14rem;
+    box-shadow: 0px 10px 10px -6px var(--sombra);
+}
+
+.cont_cursosOnline{
+    background: url(../img/backgroun-cards-online.png);
+    background-position: center top;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    border-radius: 30px;
+    padding: 3rem;
+    padding-top: 12rem;
+    box-shadow: 0px 10px 10px -6px var(--sombra);
+}
+
+.card-img-top{
+    margin-bottom: -30px;
+    border-top-right-radius: 30px;
+}
+
+@media only screen and (max-width: 567px){
+    .modal-dialog .calendar{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width: 567px){
+    .modal-dialog .calendar{
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .__home{
+    height: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .modal-dialog .calendar{
+        padding: 3rem;
+    }
+
+    .__home{
+    height: 100%;
+
+    }
+}
+
+.calendar__prev, .calendar__next, .diacurso {
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: rgba(255,255,255,0.7);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+color: rgba(255,255,255,1);
+}
+
+
